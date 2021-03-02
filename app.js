@@ -100,7 +100,7 @@ app.post("/login", (req, res) => {
     });
     
     req.login(user, (err) => {
-        if(err) {
+        if (err) {
             console.log(err);
         }
         else {
